@@ -77,3 +77,30 @@ NovaMarket_SQL_Organizado/
 ```
 
 O material visual é uma apresentação estilizada das consultas e do diagrama; para conferir os comandos executáveis, consulte os arquivos da pasta `scripts`.
+
+## Dia 02 — Filtros e condições
+
+Nesta etapa, foram exploradas técnicas de filtragem
+e ordenação de dados utilizando T-SQL.
+
+**Conceitos aplicados:**
+- WHERE, AND e OR
+- BETWEEN
+- IN e NOT IN
+- LIKE e NOT LIKE
+- Operadores de comparação
+- ORDER BY ASC e DESC
+
+### Aplicação prática
+
+Foi desenvolvida uma consulta para identificar
+produtos elegíveis para uma campanha comercial,
+considerando simultaneamente categoria, preço,
+estoque e exclusões por nome.
+
+**Resultado:** 4 produtos elegíveis.
+
+![Filtros e condições SQL](imagens/05_filtros_e_condicoes.png)
+
+O código completo está disponível em
+[scripts/05_filtros_e_condicoes.sql](scripts/05_filtros_e_condicoes.sql).

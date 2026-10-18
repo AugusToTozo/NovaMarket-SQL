@@ -28,3 +28,5 @@ WHERE fk.parent_object_id = OBJECT_ID('dbo.Pedidos');
 SELECT id_produto, nome, categoria, preco, estoque
 FROM dbo.Produtos
 ORDER BY id_produto;
+
+
